@@ -36,7 +36,7 @@ const Contact = () => {
         to_name: 'Kaung Si Thu',
         from_email: form.email,
         to_email: 'kaungsithu@berkeley.edu',
-        message: form.message,
+        message: 'email: ' + form.email + '\n\n' + form.message,
       },
       "kGSpkOTsjfDo6vObH"
     ).then(() => {

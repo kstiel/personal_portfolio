@@ -15,14 +15,28 @@ import {
     git,
     figma,
     docker,
+    java,
+    python,
+    c,
+    cplusplus,
     meta,
     starbucks,
     tesla,
+    csm,
+    conceptx,
+    selfemployed,
+    ucberkeley,
     shopify,
     carrent,
     jobit,
     tripguide,
+    operatingsystem,
+    chatapp,
     threejs,
+    databasesystem,
+    gitlet,
+    browser,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -31,13 +45,17 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "academic",
+      title: "Academic",
+    },
+    {
+      id: "project",
+      title: "Project",
     },
     {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -46,20 +64,49 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Database Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Operating System Engineer",
       icon: creator,
     },
   ];
   
   const technologies = [
+
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "java",
+      icon: java
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "c",
+      icon: c,
+    },
+    {
+      name: "cplusplus",
+      icon: cplusplus,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -67,22 +114,6 @@ import {
     {
       name: "CSS 3",
       icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -100,73 +131,111 @@ import {
       name: "Three JS",
       icon: threejs,
     },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "University of California, Berkeley",
+      company_name: "Bachelor of Science in Electrical Engineering and Computer Science",
+      icon: ucberkeley,
+      iconBg: "#818aaf",
+      date: "June 2020 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Pursued an undergraduate degree in EECS at a top-ranked public university.",
+        "Acquired a broad range of knowledge in areas including Computer Security, Algorithms, Operating Systems, Database Systems, Machine Learning, and Artificial Intelligence.",
+        "Developed software applications as part of coursework or personal projects, demonstrating proficiency in a variety of programming languages such as Java, Python, or C."
+      ]
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Private Computer Science Tutor",
+      company_name: "Self-employed",
+      icon: selfemployed,
+      iconBg: "#818aaf",
+      date: "August 2018 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Assisted struggling students in understanding Computer Science theories.",
+        "Provided students with a deeper understanding beyond what was required to complete homework assignments.",
+        "Assigned projects focused on fundamental data structures to reinforce understanding and provide practical experience.",
+        "Provided guidance and mentorship to students pursuing Computer Science degrees or careers."
+      ]
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Assistant Math Instructor",
+      company_name: "ConceptX",
+      icon: conceptx,
+      iconBg: "#818aaf",
+      date: "June 2018 - July 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Produced comprehensive math lecture videos covering topics up to Calculus.",
+        "Collaborated closely with editorial teams to create high-quality educational videos.",
+        "Delivered clear and articulate lectures to enhance the clarity and effectiveness of the explanations."
+      ]
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "College of San Mateo",
+      company_name: "Transferred to UC Berkeley",
+      icon: csm,
+      iconBg: "#818aaf",
+      date: "January 2018 - May 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Completed an Engineering program of study.",
+        "Achieved consistent placement on the Dean's List throughout college.",
+        "Developed a passion for Computer Science, leading to a decision to transfer to UC Berkeley.",
+        "Closely worked with professors on honor projects",
+        "Successfully adapted to the unique academic culture of a Western university as an international student."      ]
     },
+    // {
+    //   title: "React.js Developer",
+    //   company_name: "Starbucks",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "March 2020 - April 2021",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -194,72 +263,145 @@ import {
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
+    
   ];
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Full Stack Chat Application",
+      description: "The full stack project deploys MERN stack to create a real-time responsive chat application that supports creating users, searching users, one-to-one real-time communication, group real-time communication, and real-time notification. \n\n Demo Accounts: \n [james@gmail.com, james], \n [nathan@gmail.com, nathan]",
       tags: [
         {
-          name: "react",
+          name: "MongoDB",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: chatapp,
+      org_image: github,
+      source_code_link: "https://silent-chat.herokuapp.com/",
     },
     {
-      name: "Job IT",
+      name: "Pint Operating System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The course project include writing a shell application, implementing scheduling algorithms, designing a virtual memory manager, implementing a file system, and building a network stack. The project requires a team of four students to design and implement these components of an operating system.",
       tags: [
         {
-          name: "react",
+          name: "C",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "x86 Assembly",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: operatingsystem,
+      org_image: ucberkeley,
+      source_code_link: "https://cs162.org/",
     },
     {
-      name: "Trip Guide",
+      name: "Relational Database Management System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The project in CS 186 comprises building a simple relational database management system, implementing B+ tree indexing, algorithms for query optimization and execution, and designing a transaction management system that handles concurrency and recovery.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
+      ],
+      image: databasesystem,
+      org_image: ucberkeley,
+      source_code_link: "https://cs186berkeley.net/",
+    },
+    {
+      name: "Gitlet Version Control",
+      description:
+        "Gitlet has a command-line interface similar to Git. The project involves implementing components, such as object serialization, file I/O, hash functions, and tree data structures. The product supports \"add\" and \"commit\" commands, creating and merging branches, handling conflicts, and the \"log\" and \"checkout\" commands.",
+      tags: [
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Java",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: gitlet,
+      org_image: ucberkeley,
+      source_code_link: "https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/introduction.html",
     },
+    
+    // {
+    //   name: "Car Rent",
+    //   description:
+    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carrent,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Job IT",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "restapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
